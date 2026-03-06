@@ -18,7 +18,7 @@
         background: #f8fafc;
       }
       .container {
-        max-width: 860px;
+        max-width: 900px;
         margin: 0 auto;
         background: #ffffff;
         border-radius: 16px;
@@ -33,8 +33,14 @@
         margin: 24px 0 10px;
         font-size: 18px;
       }
+      h3 {
+        margin: 18px 0 8px;
+        font-size: 16px;
+      }
       p,
-      li {
+      li,
+      td,
+      th {
         line-height: 1.7;
         color: #374151;
       }
@@ -57,183 +63,291 @@
       a:hover {
         text-decoration: underline;
       }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 8px;
+      }
+      th,
+      td {
+        border: 1px solid #e5e7eb;
+        padding: 10px;
+        text-align: left;
+        vertical-align: top;
+        font-size: 14px;
+      }
+      th {
+        background: #f8fafc;
+        color: #111827;
+      }
+      code {
+        background: #f3f4f6;
+        border-radius: 4px;
+        padding: 1px 4px;
+      }
     </style>
   </head>
   <body>
     <div class="container">
       <h1>隐私政策 / Privacy Policy</h1>
-      <p class="meta">生效日期 / Effective Date: 2025-01-12</p>
+      <p class="meta">更新日期 / Last Updated: 2026-03-06</p>
+      <p class="meta">生效日期 / Effective Date: 2026-03-06</p>
       <p class="meta">应用名称 / App Name: EasyTryon</p>
       <p class="meta">运营主体 / Operator: Liu Yuhao</p>
       <p class="meta">联系邮箱 / Contact Email: hankan1993@yahoo.com</p>
 
       <h2>一、概览 / Overview</h2>
       <p>
-        本隐私政策适用于“EasyTryon”（以下简称“本应用”或“服务”）。我们致力于
-        保护您的隐私与数据安全。本政策说明我们收集哪些信息、如何使用与共享这些信息，
-        以及您拥有的权利。
+        本隐私政策适用于 EasyTryon（以下简称“本应用”或“服务”），说明我们如何收集、
+        使用、共享、保存和删除个人信息，以及您如何行使相关权利。
       </p>
       <p>
-        This Privacy Policy applies to the EasyTryon app (the "App" or
-        "Service"). It explains what data we collect, how we use and share it,
-        and the choices you have.
+        This Privacy Policy explains how EasyTryon (the "App" or "Service")
+        collects, uses, shares, retains, and deletes personal information, and
+        how you can exercise your rights.
+      </p>
+      <p>
+        我们不会将您提交的内容用于训练公开模型或对外出售个人信息。
+      </p>
+      <p>
+        We do not use your content to train public models and we do not sell
+        personal information.
       </p>
 
       <h2>二、我们收集的信息 / Information We Collect</h2>
       <ul>
         <li>
-          账号信息 / Account Info: Apple 登录标识、邮箱（如 Apple 提供）、昵称、店铺/品牌
-          名称。姓名与手机号为可选字段，仅在您主动填写时收集。 / Apple Sign-In identifier,
-          email (if provided by Apple), display name, store/brand name. Name and
-          phone number are optional and collected only if you choose to provide
-          them.
+          账号信息 / Account Info: Apple 登录标识、邮箱（如 Apple 提供）、昵称、店铺/品牌信息。
+          姓名、手机号、微信号等字段仅在您主动填写时收集。
         </li>
         <li>
-          商家数据 / Merchant Data: 商品/库存信息、商品图片、价格、标签、备注等内容。
-          / Product and inventory details, product images, pricing, tags, and
-          notes.
+          商家业务数据 / Merchant Data: 商品/库存信息、商品图片、价格、标签、备注、搭配与场景相关数据。
         </li>
         <li>
-          客户资料 / Client Data: 客户头像、试穿照片、试穿结果等与服务功能相关的素材
-          （由您上传或生成）。 / Client avatars, try-on photos, and generated
-          results used for the Service.
+          客户与试穿素材 / Client & Try-on Data: 客户头像、上传照片、试穿结果图、场景合成图及相关元数据。
         </li>
         <li>
-          使用与诊断数据 / Usage & Diagnostics: 设备与系统信息、应用版本、崩溃日志、
-          性能数据与基础使用统计，用于稳定性与安全保障。 / Device and system information,
-          app version, crash logs, performance metrics, and basic usage analytics.
+          交易与积分记录 / Purchases & Points: 内购交易状态、点数流水、扣减与释放记录。
+          支付卡完整信息由 Apple 处理，我们不直接保存完整卡信息。
         </li>
         <li>
-          交易与积分数据 / Purchases & Points: 内购记录、点数流水与使用记录（不包含完整
-          支付卡信息，支付信息由 App Store 处理）。 / In-app purchase records and point
-          usage (no full payment card details; payments are processed by the App
-          Store).
+          使用与诊断数据 / Usage & Diagnostics: 设备型号、系统版本、应用版本、错误日志、性能指标、
+          安全审计日志。
         </li>
         <li>
-          AI 处理输入 / AI Processing Inputs: 当您使用 AI 相关功能时，上传的图片与文本将
-          用于生成或分析结果。 / Images and text you submit for AI features are
-          processed to generate or analyze results.
+          AI 处理输入 / AI Processing Inputs: 当您使用 AI 功能时，您主动提交的图片、文本和参数。
+          其中可能包含人像、身体特征等敏感信息。
         </li>
       </ul>
 
-      <h2>三、我们如何使用信息 / How We Use Information</h2>
+      <h2>三、系统权限说明 / Device Permissions</h2>
       <ul>
         <li>
-          提供核心功能（账号登录、库存管理、试穿生成、点数使用等）。 / Provide core
-          features such as sign-in, inventory management, try-on generation, and
-          points usage.
+          相机权限 / Camera: 用于拍摄商品或客户图片（对应 iOS <code>NSCameraUsageDescription</code>）。
         </li>
         <li>
-          同步与备份数据，保障业务连续性与安全。 / Sync and back up data to ensure
-          continuity and security.
+          相册读取权限 / Photo Library Read: 用于从相册选择图片（<code>NSPhotoLibraryUsageDescription</code>）。
         </li>
         <li>
-          执行图片处理与 AI 试穿，仅在您触发相关功能时进行。 / Process images and run
-          AI try-on only when you initiate those features.
-        </li>
-        <li>
-          改进产品体验、排查故障、保护系统安全。 / Improve the product experience,
-          troubleshoot issues, and protect system security.
-        </li>
-        <li>
-          履行合规义务与处理客服请求。 / Comply with legal obligations and handle support
-          requests.
+          相册写入权限 / Photo Library Add: 用于保存处理结果到相册（<code>NSPhotoLibraryAddUsageDescription</code>）。
         </li>
       </ul>
 
-      <h2>四、信息共享与第三方 / Sharing & Third Parties</h2>
-      <p>
-        我们仅在实现服务所必需时与服务提供商共享信息，例如：
-      </p>
+      <h2>四、我们如何使用信息 / How We Use Information</h2>
       <ul>
-        <li>云服务与数据库（如 Supabase）用于认证、存储与数据同步。</li>
-        <li>AI 图像处理与生成服务提供商（仅在您使用相关功能时）。</li>
-        <li>Apple（Sign in with Apple、App Store 支付与订阅管理）。</li>
+        <li>提供核心功能（登录、库存管理、试穿与场景生成、点数结算）。</li>
+        <li>执行您发起的 AI 处理任务，仅用于生成您请求的结果。</li>
+        <li>维护账号与交易安全，防止滥用与欺诈。</li>
+        <li>改进性能、排查故障、保障服务稳定性。</li>
+        <li>履行法律义务、响应合法请求、处理用户支持请求。</li>
       </ul>
+
+      <h2>五、第三方接收方与共享 / Sharing & Third Parties</h2>
       <p>
-        We share data only with service providers necessary to operate the
-        Service (for example, cloud hosting, AI processing, and Apple services).
-        We do not sell personal information, and we do not use it for cross-app
-        tracking or targeted advertising.
+        我们仅在提供服务所必需范围内共享信息。共享范围遵循最小必要原则。
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>接收方 / Recipient</th>
+            <th>用途 / Purpose</th>
+            <th>可能数据类型 / Data Types</th>
+            <th>隐私政策 / Privacy Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Supabase</td>
+            <td>认证、数据库、对象存储、函数运行</td>
+            <td>账号信息、业务数据、上传图片、日志数据</td>
+            <td><a href="https://supabase.com/privacy" target="_blank" rel="noopener">https://supabase.com/privacy</a></td>
+          </tr>
+          <tr>
+            <td>Apple (Sign in with Apple / App Store)</td>
+            <td>登录认证、应用内购买与订阅管理</td>
+            <td>Apple 账号标识、交易状态与票据相关数据</td>
+            <td><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">https://www.apple.com/legal/privacy/</a></td>
+          </tr>
+          <tr>
+            <td>OpenAI (when enabled)</td>
+            <td>AI 图像/文本生成与分析</td>
+            <td>您提交的图片与提示词，必要的请求元数据</td>
+            <td><a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">https://openai.com/policies/privacy-policy</a></td>
+          </tr>
+          <tr>
+            <td>Google Gemini API (when enabled)</td>
+            <td>AI 图像/文本生成与分析</td>
+            <td>您提交的图片与提示词，必要的请求元数据</td>
+            <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></td>
+          </tr>
+          <tr>
+            <td>AI 网关服务商 / Configured AI Gateway Operators</td>
+            <td>AI 请求路由、可用性与故障切换</td>
+            <td>AI 请求载荷与必要网络日志（取决于网关配置）</td>
+            <td>如需当前网关名单，请通过联系邮箱索取</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        We may share your information with the above processors only as needed
+        to provide requested features. We do not sell personal information and
+        we do not use personal data for cross-app targeted advertising.
       </p>
 
-      <h2>五、数据存储与跨境传输 / Storage & Transfers</h2>
+      <h2>六、跨境传输 / International Transfers</h2>
       <p>
-        我们使用第三方云服务提供商处理与存储数据。数据可能存储在服务提供商所在的国家
-        或地区。我们将根据适用法律采取必要措施保护数据安全。
+        由于云服务与 AI 服务部署在不同地区，您的数据可能被传输至您所在国家/地区之外。
+        我们会根据适用法律采取必要的保护措施（例如合同保障、访问控制、最小化传输）。
       </p>
       <p>
-        We rely on third-party cloud providers to process and store data. Your
-        data may be stored in the provider's regions. We take appropriate
-        safeguards as required by applicable law.
-      </p>
-
-      <h2>六、数据安全 / Security</h2>
-      <p>
-        我们采用业界常见的安全措施（访问控制、传输加密、权限隔离等）来保护数据安全。
-        但任何系统都无法保证绝对安全。
-      </p>
-      <p>
-        We use standard security measures such as access controls, encryption in
-        transit, and permission controls. No system can be guaranteed to be
-        completely secure.
+        Because cloud and AI providers may operate in multiple regions, your
+        data may be transferred outside your country/region. We implement
+        safeguards required by applicable law, such as contractual measures,
+        access controls, and data minimization.
       </p>
 
       <h2>七、数据保留 / Data Retention</h2>
       <p>
-        我们在您使用服务期间保留数据。若您发起账号删除，我们将删除与账号直接关联的
-        数据。因法律合规或审计需要，部分记录可能会保留一段必要时间。
+        我们在实现服务目的所需期间保留信息。不同数据类型保留期限可能不同。
       </p>
+      <ul>
+        <li>账号与业务数据：通常保留至您删除或注销账号。</li>
+        <li>安全与审计相关记录：在合规要求范围内保留必要期限。</li>
+        <li>备份数据：最多保留 10 天，且在保留窗口内不可恢复。</li>
+      </ul>
       <p>
-        We retain data while you use the Service. If you request account
-        deletion, we delete data directly associated with your account, subject
-        to legal or compliance retention requirements.
+        We retain data for as long as necessary for the purposes described in
+        this policy. Backup copies are retained for up to 10 days and are not
+        restorable during the retention window.
       </p>
 
-      <h2>八、账号删除 / Account Deletion</h2>
+      <h2>八、账号删除（立即删除） / Account Deletion (Immediate)</h2>
       <p>
-        您可在应用内“设置 &gt; 账号删除”发起删除操作。当前为<strong>立即删除</strong>：
-        删除将移除账号及相关商家数据、图片、库存、点数流水等内容。删除后不可恢复。
+        您可在应用内“设置 &gt; 删除账号”发起删除。删除后，我们会立即删除与账号直接关联的生产数据，
+        包括商家资料、库存、图片、试穿结果与点数相关记录。该操作不可撤销。
       </p>
       <p>
         You can request deletion in-app via “Settings &gt; Delete Account”. We
-        currently process deletion immediately, which removes your account and
-        related merchant data, images, inventory, and points history. This
-        action is irreversible.
+        immediately delete production data directly associated with your account,
+        including merchant profile data, inventory, images, try-on outputs, and
+        related points records. This action is irreversible.
+      </p>
+      <p>
+        为履行法律义务、防欺诈和安全审计，我们可能在合法范围内保留最小必要记录；备份最多保留 10 天。
+      </p>
+      <p>
+        We may retain minimum records where required for legal compliance,
+        anti-abuse, and security auditing, and maintain non-restorable backups
+        for up to 10 days.
       </p>
 
       <h2>九、您的权利 / Your Rights</h2>
       <ul>
-        <li>访问、更正或删除您的个人信息。 / Access, correct, or delete your data.</li>
-        <li>撤回部分同意（可能影响服务可用性）。 / Withdraw certain consents (may affect
-        availability of features).</li>
-        <li>向我们咨询您的数据处理情况。 / Contact us to inquire about your data handling.</li>
+        <li>访问、复制、更正或删除您的个人信息。</li>
+        <li>撤回同意（不影响撤回前处理的合法性）。</li>
+        <li>反对或限制特定处理活动（依法适用时）。</li>
+        <li>请求注销账号。</li>
+        <li>就隐私问题向我们投诉或咨询。</li>
+      </ul>
+      <p>
+        您可通过应用内路径或联系邮箱提交请求。我们会在适用法律要求时限内处理。
+      </p>
+      <p>
+        You may submit requests in-app or by contacting us via email. We will
+        respond within the timeframe required by applicable law.
+      </p>
+
+      <h2>十、数据安全 / Security</h2>
+      <p>
+        我们采用访问控制、传输加密、权限隔离、最小授权和审计日志等措施保护数据安全。
+        但任何系统都无法保证绝对安全。
+      </p>
+      <p>
+        We use access controls, encryption in transit, permission isolation,
+        least-privilege access, and audit logging. No system can be guaranteed
+        to be 100% secure.
+      </p>
+
+      <h2>十一、儿童与未成年人 / Children and Minors</h2>
+      <p>
+        本服务不面向儿童定向提供。如您未达到所在法域要求的最低年龄，请在监护人同意与指导下使用。
+        如我们发现未经适当同意处理未成年人信息，我们将删除相关数据。
+      </p>
+      <p>
+        This Service is not directed to children. If you are below the minimum
+        age in your jurisdiction, use the Service only with parental/guardian
+        consent and guidance. If we learn we processed a minor's data without
+        proper consent, we will delete it.
+      </p>
+
+      <h2>十二、区域附录 / Regional Supplements</h2>
+
+      <h3>A. 欧盟/欧洲经济区/英国 / EU/EEA/UK</h3>
+      <ul>
+        <li>
+          法律依据 / Legal Bases: 我们可能基于履行合同、合法权益、法律义务和同意处理数据。
+        </li>
+        <li>
+          跨境保障 / Transfer Safeguards: 适用时采用充分性决定、标准合同条款（SCC）或英国 IDTA/附录。
+        </li>
+        <li>
+          权利 / Rights: 您可请求访问、更正、删除、限制处理、反对处理、数据可携带，并可向监管机构投诉。
+        </li>
       </ul>
 
-      <h2>十、儿童隐私 / Children's Privacy</h2>
+      <h3>B. 美国（含加州） / United States (including California)</h3>
+      <ul>
+        <li>
+          我们不会出售个人信息，也不会将个人信息用于跨情境行为广告“共享”（as defined by California law）。
+        </li>
+        <li>
+          California 居民可请求知情、访问、删除、更正，并享有不受歧视待遇的权利。
+        </li>
+        <li>
+          如我们未来业务模式发生变化并触发“出售/共享”定义，我们将提供相应的退出机制并更新本政策。
+        </li>
+      </ul>
+
+      <h2>十三、政策更新 / Updates to This Policy</h2>
       <p>
-        本应用不面向 13 岁以下用户。如发现未成年人数据，请联系我们删除。
+        我们可能不时更新本政策。若发生重大变更（例如处理目的、共享对象或跨境安排的重大变化），
+        我们将通过应用内通知、页面更新或其他合理方式告知，并在法律要求时重新取得您的同意。
       </p>
       <p>
-        The App is not directed to children under 13. If we learn we have
-        collected such data, we will delete it.
+        We may update this policy from time to time. For material changes (such
+        as major changes to purposes, recipients, or international transfer
+        arrangements), we will notify you through in-app notices, page updates,
+        or other reasonable means, and obtain consent again when legally
+        required.
       </p>
 
-      <h2>十一、政策更新 / Updates</h2>
+      <h2>十四、联系我们 / Contact Us</h2>
       <p>
-        我们可能更新本政策。更新后将通过应用内提示或页面更新时间进行告知。
+        隐私相关问题、权利请求或投诉，请联系：hankan1993@yahoo.com
       </p>
       <p>
-        We may update this policy from time to time. We will notify you by
-        updating the effective date or through in-app notice.
-      </p>
-
-      <h2>十二、联系我们 / Contact</h2>
-      <p>
-        若您对本政策有任何问题，请联系：hankan1993@yahoo.com
-      </p>
-      <p>
-        For any questions about this policy, contact: hankan1993@yahoo.com
+        For privacy questions, rights requests, or complaints, contact:
+        hankan1993@yahoo.com
       </p>
 
       <div class="divider"></div>
