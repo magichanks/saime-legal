@@ -115,30 +115,70 @@
       </p>
 
       <h2>二、我们收集的信息 / Information We Collect</h2>
-      <ul>
-        <li>
-          账号信息 / Account Info: Apple 登录标识、邮箱（如 Apple 提供）、昵称、店铺/品牌信息。
-          姓名、手机号、微信号等字段仅在您主动填写时收集。
-        </li>
-        <li>
-          商家业务数据 / Merchant Data: 商品/库存信息、商品图片、价格、标签、备注、搭配与场景相关数据。
-        </li>
-        <li>
-          客户与试穿素材 / Client & Try-on Data: 客户头像、上传照片、试穿结果图、场景合成图及相关元数据。
-        </li>
-        <li>
-          交易与积分记录 / Purchases & Points: 内购交易状态、点数流水、扣减与释放记录。
-          支付卡完整信息由 Apple 处理，我们不直接保存完整卡信息。
-        </li>
-        <li>
-          使用与诊断数据 / Usage & Diagnostics: 设备型号、系统版本、应用版本、错误日志、性能指标、
-          安全审计日志。
-        </li>
-        <li>
-          AI 处理输入 / AI Processing Inputs: 当您使用 AI 功能时，您主动提交的图片、文本和参数。
-          其中可能包含人像、身体特征等敏感信息。
-        </li>
-      </ul>
+      <p>
+        我们通过您直接提供、您主动上传、Apple 等第三方登录/支付渠道提供，以及设备自动生成的
+        运行日志来收集信息。下表概述了主要数据类别、来源与用途。
+      </p>
+      <p>
+        We collect information directly from you, from content you choose to
+        upload, from third-party sign-in/payment providers such as Apple, and
+        from device-generated operational logs. The table below summarizes the
+        main categories, sources, and purposes.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>类别 / Category</th>
+            <th>示例 / Examples</th>
+            <th>来源 / Source</th>
+            <th>主要用途 / Main Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>账号信息 / Account Info</td>
+            <td>Apple 登录标识、邮箱、昵称、店铺/品牌信息</td>
+            <td>您、Apple</td>
+            <td>注册、登录、账号管理、身份关联</td>
+          </tr>
+          <tr>
+            <td>资料字段 / Profile Fields</td>
+            <td>姓名、手机号、微信号、风格偏好</td>
+            <td>您主动填写</td>
+            <td>资料维护、商家展示、个性化体验</td>
+          </tr>
+          <tr>
+            <td>商家业务数据 / Merchant Data</td>
+            <td>库存、商品图、价格、标签、备注、搭配/场景数据</td>
+            <td>您主动创建或上传</td>
+            <td>库存管理、内容组织、试穿与搭配功能</td>
+          </tr>
+          <tr>
+            <td>客户与试穿素材 / Client & Try-on Data</td>
+            <td>客户头像、上传照片、Avatar、试穿图、场景图、相关元数据</td>
+            <td>您主动上传或在服务中生成</td>
+            <td>提供 Avatar、试穿、场景生成与历史记录</td>
+          </tr>
+          <tr>
+            <td>交易与积分记录 / Purchases & Points</td>
+            <td>交易状态、产品 ID、点数流水、扣减/释放记录</td>
+            <td>Apple、我们的后台</td>
+            <td>购买结算、对账、防欺诈、客户支持</td>
+          </tr>
+          <tr>
+            <td>使用与诊断数据 / Usage & Diagnostics</td>
+            <td>设备型号、系统版本、应用版本、错误日志、性能指标、安全审计日志</td>
+            <td>设备和服务自动生成</td>
+            <td>稳定性、安全、故障排查、容量规划</td>
+          </tr>
+          <tr>
+            <td>AI 处理输入 / AI Processing Inputs</td>
+            <td>图片、文本提示词、场景参考图、处理参数</td>
+            <td>您主动提交</td>
+            <td>执行您请求的 AI 生成、编辑、分析或试穿任务</td>
+          </tr>
+        </tbody>
+      </table>
 
       <h2>三、系统权限说明 / Device Permissions</h2>
       <ul>
@@ -152,6 +192,15 @@
           相册写入权限 / Photo Library Add: 用于保存处理结果到相册（<code>NSPhotoLibraryAddUsageDescription</code>）。
         </li>
       </ul>
+      <p>
+        您可以随时在系统设置中关闭相关权限。关闭后，相应依赖权限的功能可能无法使用，但不影响无需该权限的
+        其他功能。
+      </p>
+      <p>
+        You can disable these permissions at any time in your device settings.
+        If you do, the related features may stop working, while unrelated
+        features remain available.
+      </p>
 
       <h2>四、我们如何使用信息 / How We Use Information</h2>
       <ul>
@@ -161,8 +210,37 @@
         <li>改进性能、排查故障、保障服务稳定性。</li>
         <li>履行法律义务、响应合法请求、处理用户支持请求。</li>
       </ul>
+      <p>
+        对于欧盟/欧洲经济区/英国用户，我们通常基于履行合同、合法权益、法律义务或您的同意处理数据。
+        对于您主动上传的人像、身体相关图片及其他可能属于敏感信息的 AI 输入，我们仅在您主动触发相关功能时处理。
+      </p>
+      <p>
+        For users in the EU/EEA/UK, we generally process data based on contract,
+        legitimate interests, legal obligations, or your consent. For images of
+        people, body-related photos, and other AI inputs that may be treated as
+        sensitive data, we process them only when you actively submit them for
+        the relevant feature.
+      </p>
 
-      <h2>五、第三方接收方与共享 / Sharing & Third Parties</h2>
+      <h2>五、敏感信息与 AI 处理 / Sensitive Information & AI Processing</h2>
+      <p>
+        在某些法域中，您上传的人像照片、身体特征相关图片、试穿参考图及其生成结果可能被视为敏感信息或需要
+        更高保护级别的数据。我们仅在您明确使用相关功能时处理此类信息。
+      </p>
+      <p>
+        In some jurisdictions, photos of people, body-related images, reference
+        images for try-on, and their generated outputs may be treated as
+        sensitive information or data requiring a higher level of protection. We
+        process this information only when you clearly choose to use those
+        features.
+      </p>
+      <ul>
+        <li>如果您不提供此类输入，账号、库存等非 AI 核心功能通常仍可继续使用。</li>
+        <li>我们不会将此类输入用于公开模型训练、跨服务广告画像或向数据经纪商出售。</li>
+        <li>我们不会基于这些图片进行跨服务身份匹配或面向广告的生物识别分析。</li>
+      </ul>
+
+      <h2>六、第三方接收方与共享 / Sharing & Third Parties</h2>
       <p>
         我们仅在提供服务所必需范围内共享信息。共享范围遵循最小必要原则。
       </p>
@@ -172,6 +250,7 @@
             <th>接收方 / Recipient</th>
             <th>用途 / Purpose</th>
             <th>可能数据类型 / Data Types</th>
+            <th>传输说明 / Transfer Note</th>
             <th>隐私政策 / Privacy Link</th>
           </tr>
         </thead>
@@ -180,30 +259,35 @@
             <td>Supabase</td>
             <td>认证、数据库、对象存储、函数运行</td>
             <td>账号信息、业务数据、上传图片、日志数据</td>
+            <td>可能在所配置的云区域处理或存储</td>
             <td><a href="https://supabase.com/privacy" target="_blank" rel="noopener">https://supabase.com/privacy</a></td>
           </tr>
           <tr>
             <td>Apple (Sign in with Apple / App Store)</td>
             <td>登录认证、应用内购买与订阅管理</td>
             <td>Apple 账号标识、交易状态与票据相关数据</td>
+            <td>由 Apple 按其全球基础设施处理</td>
             <td><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">https://www.apple.com/legal/privacy/</a></td>
           </tr>
           <tr>
             <td>OpenAI (when enabled)</td>
             <td>AI 图像/文本生成与分析</td>
             <td>您提交的图片与提示词，必要的请求元数据</td>
+            <td>仅在相关 AI 能力启用且您主动发起任务时传输</td>
             <td><a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">https://openai.com/policies/privacy-policy</a></td>
           </tr>
           <tr>
             <td>Google Gemini API (when enabled)</td>
             <td>AI 图像/文本生成与分析</td>
             <td>您提交的图片与提示词，必要的请求元数据</td>
+            <td>仅在相关 AI 能力启用且您主动发起任务时传输</td>
             <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></td>
           </tr>
           <tr>
             <td>AI 网关服务商 / Configured AI Gateway Operators</td>
             <td>AI 请求路由、可用性与故障切换</td>
             <td>AI 请求载荷与必要网络日志（取决于网关配置）</td>
+            <td>仅在网关链路开启时参与转发或日志处理</td>
             <td>如需当前网关名单，请通过联系邮箱索取</td>
           </tr>
         </tbody>
@@ -213,8 +297,11 @@
         to provide requested features. We do not sell personal information and
         we do not use personal data for cross-app targeted advertising.
       </p>
+      <p>
+        我们会依据合同、访问控制和最小权限原则管理第三方处理方，并在适用法律要求时提供进一步披露。
+      </p>
 
-      <h2>六、跨境传输 / International Transfers</h2>
+      <h2>七、跨境传输 / International Transfers</h2>
       <p>
         由于云服务与 AI 服务部署在不同地区，您的数据可能被传输至您所在国家/地区之外。
         我们会根据适用法律采取必要的保护措施（例如合同保障、访问控制、最小化传输）。
@@ -225,14 +312,25 @@
         safeguards required by applicable law, such as contractual measures,
         access controls, and data minimization.
       </p>
+      <p>
+        当您使用 AI 功能时，您理解并授权我们将您提交的内容发送至当前配置的处理方以完成您请求的任务。
+        如当地法律要求额外同意或额外告知，我们会按适用规则执行。
+      </p>
+      <p>
+        When you use AI features, you understand and instruct us to send the
+        content you submit to the currently configured processors to complete
+        your requested task. Where local law requires additional notice or
+        consent, we will provide it.
+      </p>
 
-      <h2>七、数据保留 / Data Retention</h2>
+      <h2>八、数据保留 / Data Retention</h2>
       <p>
         我们在实现服务目的所需期间保留信息。不同数据类型保留期限可能不同。
       </p>
       <ul>
-        <li>账号与业务数据：通常保留至您删除或注销账号。</li>
-        <li>安全与审计相关记录：在合规要求范围内保留必要期限。</li>
+        <li>账号与商家业务数据：通常保留至您主动删除或注销账号。</li>
+        <li>上传图片、Avatar、试穿和场景结果：通常保留至您删除相关内容或注销账号。</li>
+        <li>交易、点数、风控和审计相关记录：可能因财务、争议处理、防欺诈和合规要求保留更久。</li>
         <li>备份数据：最多保留 10 天，且在保留窗口内不可恢复。</li>
       </ul>
       <p>
@@ -241,7 +339,7 @@
         restorable during the retention window.
       </p>
 
-      <h2>八、账号删除（立即删除） / Account Deletion (Immediate)</h2>
+      <h2>九、账号删除（立即删除） / Account Deletion (Immediate)</h2>
       <p>
         您可在应用内“设置 &gt; 删除账号”发起删除。删除后，我们会立即删除与账号直接关联的生产数据，
         包括商家资料、库存、图片、试穿结果与点数相关记录。该操作不可撤销。
@@ -260,8 +358,17 @@
         anti-abuse, and security auditing, and maintain non-restorable backups
         for up to 10 days.
       </p>
+      <p>
+        如您无法通过应用内完成删除请求，也可以通过联系邮箱提交请求。为保护账号安全，我们可能要求您提供
+        合理的身份验证信息。
+      </p>
+      <p>
+        If you cannot complete deletion in-app, you may also contact us by
+        email. To protect account security, we may request reasonable
+        verification information before acting on your request.
+      </p>
 
-      <h2>九、您的权利 / Your Rights</h2>
+      <h2>十、您的权利与请求方式 / Your Rights and How to Exercise Them</h2>
       <ul>
         <li>访问、复制、更正或删除您的个人信息。</li>
         <li>撤回同意（不影响撤回前处理的合法性）。</li>
@@ -270,14 +377,26 @@
         <li>就隐私问题向我们投诉或咨询。</li>
       </ul>
       <p>
-        您可通过应用内路径或联系邮箱提交请求。我们会在适用法律要求时限内处理。
+        您可通过以下方式行使权利：应用内资料编辑入口用于更正部分资料；应用内“设置 &gt; 删除账号”用于账号删除；
+        联系邮箱用于访问、复制、更正、删除、限制处理、反对处理、投诉或其他隐私请求。
       </p>
       <p>
-        You may submit requests in-app or by contacting us via email. We will
-        respond within the timeframe required by applicable law.
+        You can exercise your rights through the following methods: in-app
+        profile editing for some account fields; in-app “Settings &gt; Delete
+        Account” for account deletion; and our contact email for access, copy,
+        correction, deletion, restriction, objection, complaints, or other
+        privacy requests.
+      </p>
+      <p>
+        我们会在适用法律要求时限内处理请求。必要时，我们可能要求额外信息以验证请求人与账号或数据的关系。
+      </p>
+      <p>
+        We will respond within the timeframe required by applicable law. Where
+        necessary, we may ask for additional information to verify your identity
+        or your relationship to the account or data.
       </p>
 
-      <h2>十、数据安全 / Security</h2>
+      <h2>十一、数据安全 / Security</h2>
       <p>
         我们采用访问控制、传输加密、权限隔离、最小授权和审计日志等措施保护数据安全。
         但任何系统都无法保证绝对安全。
@@ -288,7 +407,7 @@
         to be 100% secure.
       </p>
 
-      <h2>十一、儿童与未成年人 / Children and Minors</h2>
+      <h2>十二、儿童与未成年人 / Children and Minors</h2>
       <p>
         本服务不面向儿童定向提供。如您未达到所在法域要求的最低年龄，请在监护人同意与指导下使用。
         如我们发现未经适当同意处理未成年人信息，我们将删除相关数据。
@@ -300,7 +419,7 @@
         proper consent, we will delete it.
       </p>
 
-      <h2>十二、区域附录 / Regional Supplements</h2>
+      <h2>十三、区域附录 / Regional Supplements</h2>
 
       <h3>A. 欧盟/欧洲经济区/英国 / EU/EEA/UK</h3>
       <ul>
@@ -313,6 +432,9 @@
         <li>
           权利 / Rights: 您可请求访问、更正、删除、限制处理、反对处理、数据可携带，并可向监管机构投诉。
         </li>
+        <li>
+          自动化处理 / Automated Processing: 我们不会仅基于自动化处理作出对您产生法律或类似重大影响的决定。
+        </li>
       </ul>
 
       <h3>B. 美国（含加州） / United States (including California)</h3>
@@ -324,11 +446,14 @@
           California 居民可请求知情、访问、删除、更正，并享有不受歧视待遇的权利。
         </li>
         <li>
+          我们不会将敏感个人信息用于与提供您请求服务无关的推断、画像或广告目的。
+        </li>
+        <li>
           如我们未来业务模式发生变化并触发“出售/共享”定义，我们将提供相应的退出机制并更新本政策。
         </li>
       </ul>
 
-      <h2>十三、政策更新 / Updates to This Policy</h2>
+      <h2>十四、政策更新 / Updates to This Policy</h2>
       <p>
         我们可能不时更新本政策。若发生重大变更（例如处理目的、共享对象或跨境安排的重大变化），
         我们将通过应用内通知、页面更新或其他合理方式告知，并在法律要求时重新取得您的同意。
@@ -341,7 +466,7 @@
         required.
       </p>
 
-      <h2>十四、联系我们 / Contact Us</h2>
+      <h2>十五、联系我们 / Contact Us</h2>
       <p>
         隐私相关问题、权利请求或投诉，请联系：hankan1993@yahoo.com
       </p>
